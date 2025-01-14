@@ -1,16 +1,17 @@
 # Real-Time Unified Search Service for Second-Hand Trading Platforms <br><be>
 
 ## Overview
-Our project is a comprehensive solution designed to address the lack of a unified service for comparing prices of second-hand products across multiple platforms. Unlike new products, which often have standardized pricing, second-hand items can vary significantly in price and availability. This service, implemented using **Hadoop** for its scalability and data processing capabilities, allows users to compare prices in real-time, enabling informed purchasing decisions conveniently.<br><br>
+This project was created to address the lack of a unified platform for real-time comparison of second-hand product prices across multiple websites, empowering users to make informed purchasing decisions effortlessly.
 
 ## What the Application Does
-- Compare prices of second-hand products across multiple websites.
-- Access real-time updates on product availability and pricing.
-- Make informed purchasing decisions based on comprehensive data analysis.<br><br>
+- Compare prices of second-hand products across various websites.
+- Provides timely updates on product availability and pricing.
+- Excludes outlier prices to ensure more accurate comparisons.
+- Supports informed purchasing decisions through comprehensive data analysis.<br><br>
 
 ## Challenges Faced
 - **Data Integration**: Aggregating data from multiple platforms required overcoming various API limitations and data formatting issues.
-- **Real-Time Processing**: Ensuring that the data was updated in real-time posed significant technical hurdles, particularly in terms of system performance and latency.<br><br>
+- **Real-Time Processing**: Ensuring that the data was updated promptly presented significant technical challenges, particularly regarding system performance and latency.<br><br>
 
 ## Results
 
