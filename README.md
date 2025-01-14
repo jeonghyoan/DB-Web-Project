@@ -1,7 +1,7 @@
 # Real-Time Unified Search Service for Second-Hand Trading Platforms <br><be>
 
 ## Overview
-This project was created to address the lack of a unified platform for real-time comparison of second-hand product prices across multiple websites, empowering users to make informed purchasing decisions effortlessly.
+This project was created to address the lack of a unified platform for real-time comparison of second-hand product prices across multiple websites, empowering users to make informed purchasing decisions effortlessly.<br><br>
 
 ## What the Application Does
 - Compare prices of second-hand products across various websites.
