@@ -19,10 +19,6 @@ We chose to implement our project using Hadoop for several reasons:
 During the development of this project, we encountered several challenges:
 - **Data Integration**: Aggregating data from multiple platforms required overcoming various API limitations and data formatting issues.
 - **Real-Time Processing**: Ensuring that the data was updated in real-time posed significant technical hurdles, particularly in terms of system performance and latency.
-- **User Experience**: Designing an intuitive interface that allows users to easily navigate and compare products was a critical focus, requiring extensive user testing and feedback.
 
-## Future Enhancements
-Looking ahead, we aim to implement the following features:
-- **Expanded Platform Support**: Integrate additional second-hand trading platforms to broaden the range of products available for comparison.
-- **Advanced Filtering Options**: Provide users with more sophisticated filters to refine their search results based on criteria such as location, condition, and seller ratings.
-- **User Accounts and Notifications**: Enable users to create accounts to save their searches and receive notifications about price changes or new listings for their desired products.
+## Results
+
