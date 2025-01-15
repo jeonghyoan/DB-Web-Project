@@ -1,5 +1,4 @@
-# Real-Time Unified Search Service for Second-Hand Trading Platforms <br><br>
-
+# Real-Time Unified Search Service for Second-Hand Trading Platforms <br>
 **Project Duration**: Oct 2022 - Nov 2022<br><br>
 
 ## Overview
