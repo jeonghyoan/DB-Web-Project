@@ -1,6 +1,6 @@
 # Real-Time Unified Search Service for Second-Hand Trading Platforms <br><br>
 
-**Project Duration**: Apr 2022- May 2022<br><br>
+**Project Duration**: Oct 2022 - Nov 2022<br><br>
 
 ## Overview
 This project was created to address the lack of a unified platform for real-time comparison of second-hand product prices across multiple websites, empowering users to make informed purchasing decisions effortlessly.<br><br>
