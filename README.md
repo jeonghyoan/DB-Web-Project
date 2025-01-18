@@ -11,7 +11,7 @@ This project was created to address the lack of a unified platform for real-time
 - Supports informed purchasing decisions through comprehensive data analysis.<br><br>
 
 ## Challenges Faced
-- **Data crawling & Integration**: Aggregating data from multiple platforms required overcoming various API limitations and data formatting issues.
+- **Data Crawling & Integration**: Aggregating data from multiple platforms required overcoming various API limitations and data formatting issues.
 - **Real-Time Processing**: Ensuring that the data was updated promptly presented significant technical challenges, particularly regarding system performance and latency.<br><br>
 
 ## Results
