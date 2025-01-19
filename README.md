@@ -5,7 +5,7 @@
 ---
 
 ## Overview
-This project was created to address the lack of a unified platform for real-time comparison of second-hand product prices across multiple websites, empowering users to make informed purchasing decisions effortlessly.
+This project was created to address the lack of a unified platform for **real-time** comparison of second-hand product prices across **multiple** websites, empowering users to make informed purchasing decisions effortlessly.
 
 ---
 
@@ -31,12 +31,6 @@ This project was created to address the lack of a unified platform for real-time
 ### 5. Web Service Implementation
 - Develop a web-based service using **PHP**.
 - Use **HTML, CSS**, and **PHP** to implement the frontend.  
-
----
-
-## Challenges Faced
-- **Data Crawling & Integration**: Aggregating data from multiple platforms required overcoming various API limitations and data formatting issues.
-- **Real-Time Processing**: Ensuring that the data was updated promptly presented significant technical challenges, particularly regarding system performance and latency.<br><br>
 
 ---
 
