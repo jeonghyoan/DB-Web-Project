@@ -18,15 +18,12 @@ This project was created to address the lack of a unified platform for **real-ti
 ### 2. Data Storage
 - Save the collected data in a **MySQL** database table.
 
-### 3. Data Integration
-- Combine data from different sources (Danggeun Market, Bungaejangter, Jungonara) into a unified MySQL table.
-- Perform filtering to remove irrelevant or incomplete records (e.g., missing prices or images).  
-
-### 4. Data Preprocessing
+### 4. Data Preprocessing & Integration
 - Remove Irrelevant Keywords: Delete rows containing unwanted keywords in product titles (e.g., "삽니다", "구해요", "교환", "나눔", "기부").
 - Remove Incomplete Data: Delete rows where critical fields (e.g., price, image) are NULL.
 - Format and Standardize Timestamps: Convert published_at values (e.g., "몇초 전", "몇분 전") into a standard datetime format.
 - Remove Outliers: Exclude extreme values based on price.(e.g., 99999원)
+- Combine data from different sources (Danggeun Market, Bungaejangter, Jungonara) into a unified MySQL table.
 
 ### 5. Web Service Implementation
 - Develop a web-based service using **PHP**.
