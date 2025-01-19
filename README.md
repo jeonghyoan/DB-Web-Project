@@ -18,20 +18,17 @@ This project was created to address the lack of a unified platform for real-time
 ### 2. Data Storage
 - Save the collected data in a MySQL database table called `articles`.  
 
-### 3. Data Transfer to HDFS
-- Import data from MySQL to HDFS for processing.  
+### 3. Data Integration
+- Combine data from different sources (Danggeun Market, Bungaejangter, Jungonara) into a unified MySQL table named `Product`.
+- Perform filtering to remove irrelevant or incomplete records (e.g., missing prices or images).  
 
-### 4. MapReduce Execution
-- Run MapReduce jobs using Hadoop Python Streaming.  
+### 4. Data Cleaning
+- Remove rows containing unwanted keywords in product titles to refine search results.  
+- Example: Filter out entries like "구해요", "삽니다", "교환", etc.  
 
-### 5. Data Preprocessing
-- Clean and prepare data for analysis using Hive.  
-
-### 6. Exporting Data
-- Export processed data from HDFS back to MySQL.  
-
-### 7. Web Service Implementation
-- Develop a web service for users to access and compare real-time data on second-hand products.  
+### 5. Web Service Implementation
+- Develop a web-based service using PHP.
+- Use HTML, CSS, and PHP to implement the frontend.  
 
 ---
 
