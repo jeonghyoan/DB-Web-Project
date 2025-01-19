@@ -16,7 +16,7 @@ This project was created to address the lack of a unified platform for real-time
 - **Selenium**: Scrape real-time data from Jungonara.  
 
 ### 2. Data Storage
-- Save the collected data in a MySQL database table.
+- Save the collected data in a **MySQL** database table.
 
 ### 3. Data Integration
 - Combine data from different sources (Danggeun Market, Bungaejangter, Jungonara) into a unified MySQL table.
@@ -29,8 +29,8 @@ This project was created to address the lack of a unified platform for real-time
 - Remove Outliers: Exclude extreme values based on price.(e.g., 99999원)
 
 ### 5. Web Service Implementation
-- Develop a web-based service using PHP.
-- Use HTML, CSS, and PHP to implement the frontend.  
+- Develop a web-based service using **PHP**.
+- Use **HTML, CSS**, and **PHP** to implement the frontend.  
 
 ---
 
