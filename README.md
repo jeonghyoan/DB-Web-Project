@@ -1,18 +1,45 @@
-# Real-Time Unified Search Service for Second-Hand Trading Platforms <br>
-**Project Duration**: Apr 2022 - May 2022<br><br>
+# Real-Time Unified Search Service for Second-Hand Trading Platforms
+
+**Project Duration**: Apr 2022 - May 2022  
+
+---
 
 ## Overview
-This project was created to address the lack of a unified platform for real-time comparison of second-hand product prices across multiple websites, empowering users to make informed purchasing decisions effortlessly.<br><br>
+This project was created to address the lack of a unified platform for real-time comparison of second-hand product prices across multiple websites, empowering users to make informed purchasing decisions effortlessly.
 
-## What the Application Does
-- Compare prices of second-hand products across various websites.
-- Provides timely updates on product availability and pricing.
-- Excludes outlier prices to ensure more accurate comparisons.
-- Supports informed purchasing decisions through comprehensive data analysis.<br><br>
+---
+
+## Project Workflow
+
+### 1. Web Crawling
+- **APIs**: Collect data from Danggeun Market and Bungaejangter.  
+- **Selenium**: Scrape real-time data from Jungonara.  
+
+### 2. Data Storage
+- Save the collected data in a MySQL database table called `articles`.  
+
+### 3. Data Transfer to HDFS
+- Import data from MySQL to HDFS for processing.  
+
+### 4. MapReduce Execution
+- Run MapReduce jobs using Hadoop Python Streaming.  
+
+### 5. Data Preprocessing
+- Clean and prepare data for analysis using Hive.  
+
+### 6. Exporting Data
+- Export processed data from HDFS back to MySQL.  
+
+### 7. Web Service Implementation
+- Develop a web service for users to access and compare real-time data on second-hand products.  
+
+---
 
 ## Challenges Faced
 - **Data Crawling & Integration**: Aggregating data from multiple platforms required overcoming various API limitations and data formatting issues.
 - **Real-Time Processing**: Ensuring that the data was updated promptly presented significant technical challenges, particularly regarding system performance and latency.<br><br>
+
+---
 
 ## Results
 
